@@ -1,0 +1,5 @@
+RewriteEngine on
+ 
+RewriteCond $1 !^(index\.php)
+ 
+RewriteRule ^(.*)$ /codeigniter/index.php/$1 [L]545454
